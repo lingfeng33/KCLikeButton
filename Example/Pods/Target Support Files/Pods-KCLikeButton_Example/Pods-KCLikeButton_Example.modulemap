@@ -1,0 +1,6 @@
+framework module Pods_KCLikeButton_Example {
+  umbrella header "Pods-KCLikeButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

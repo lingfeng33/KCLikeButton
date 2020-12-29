@@ -1,0 +1,6 @@
+framework module KCLikeButton {
+  umbrella header "KCLikeButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

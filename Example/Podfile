@@ -8,6 +8,6 @@ target 'KCLikeButton_Example' do
   target 'KCLikeButton_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'FBSnapshotTestCase'
   end
 end

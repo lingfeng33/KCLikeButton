@@ -1,0 +1,16 @@
+PODS:
+  - KCLikeButton (0.1.0)
+
+DEPENDENCIES:
+  - KCLikeButton (from `../`)
+
+EXTERNAL SOURCES:
+  KCLikeButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KCLikeButton: 526eb298dcbe951b304b687da547c4a33c689493
+
+PODFILE CHECKSUM: 63c515b7cf10a805d998fea1bc8766137dcda55a
+
+COCOAPODS: 1.10.0

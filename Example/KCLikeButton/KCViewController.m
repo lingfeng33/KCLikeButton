@@ -7,6 +7,7 @@
 //
 
 #import "KCViewController.h"
+#import <KCLikeButton.h>
 
 @interface KCViewController ()
 
@@ -18,6 +19,26 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor blackColor];
+    
+    CGFloat cx     = 5; //倍数
+    CGFloat width  = 50 * cx;
+    CGFloat height = 45 * cx;
+    KCLikeButton * likeView = [[KCLikeButton alloc] initWithFrame:CGRectMake(10, 20, width, height)];
+   
+    likeView.likeDuration = 0.5;
+    likeView.zanFillColor = [UIColor redColor];
+    [self.view addSubview:likeView];
+    self.view.backgroundColor = [UIColor blackColor];
+    
+    [likeView setLikeBeforBlock:^{
+        NSLog(@"----------");
+    }];
+    
+    [likeView setAftterBeforBlock:^{
+       
+        NSLog(@"+++++++++++");
+    }];
 }
 
 - (void)didReceiveMemoryWarning

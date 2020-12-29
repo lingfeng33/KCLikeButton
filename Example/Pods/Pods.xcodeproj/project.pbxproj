@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22ABCCE1C89C995B51638A1A3C7810CF /* KCLikeButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8928DB6D538E09FC31E6159EB3A21A7F /* KCLikeButton-dummy.m */; };
+		22B0CF53B064ECDDD5B58F74675E5627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		465F52F451930133BD11C4D21A4BC41E /* KCLikeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F778135786A39360B540B33F6634A05 /* KCLikeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C892DF177D7E847092D5EEF55D7C83 /* KCLikeButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89043A23AC6A246B909E90AD5FC291F5 /* KCLikeButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CCAECE4D3B5E4CEE4282455DF316186 /* KCLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35739610C8A7EDD79F9ECEE2BBA4B392 /* KCLikeButton.m */; };
+		9F2B782DAB9514734AAE7A15BBF2A942 /* Pods-KCLikeButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815A0B547E3BBB76EFD085BEBDC1DED3 /* Pods-KCLikeButton_Example-dummy.m */; };
+		A5F068EA817EF0389D63B69D3B48FE9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AA7E7D2212285D08706AC068C1766B9D /* Pods-KCLikeButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B256E44BDA404AC336B89D6954E2479 /* Pods-KCLikeButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5DA8DC34C9DEC851FF7A77490B60A73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E11C9279AAC7C093CEA90E54C1F49EDC /* Pods-KCLikeButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70617EE3865817A7FCE9409BE40AD9F0 /* Pods-KCLikeButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F049433747C68A9D6B2C6DDEDC3BCDF4 /* Pods-KCLikeButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC792921C3668FD901FFA0CE7670DC82 /* Pods-KCLikeButton_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5485137746082CA3417B1B5CDE656C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F9712969C8313F0BD0FBA4657FB144;
+			remoteInfo = "Pods-KCLikeButton_Example";
+		};
+		C103DDFE45FF22C79581B411A6CDFE0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C342E17FE4F0ACB7A12262E6C75FC5;
+			remoteInfo = KCLikeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010911661DE5D2B333C24B72B44C41F4 /* Pods-KCLikeButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCLikeButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		02291F0E8C131D9D6520C87726FF78C8 /* KCLikeButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KCLikeButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EB0838B88F2743D3C9F8872DBBD73D /* KCLikeButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCLikeButton.debug.xcconfig; sourceTree = "<group>"; };
+		0FF16447829E0243F0E14E5909A51B56 /* KCLikeButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KCLikeButton.modulemap; sourceTree = "<group>"; };
+		21BC76A26CB248D408F2505556C108C6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2A4A644661A6297474866C8DEF093627 /* Pods-KCLikeButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCLikeButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		2B256E44BDA404AC336B89D6954E2479 /* Pods-KCLikeButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KCLikeButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		35739610C8A7EDD79F9ECEE2BBA4B392 /* KCLikeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KCLikeButton.m; path = KCLikeButton/Classes/KCLikeButton.m; sourceTree = "<group>"; };
+		47248C7910476666649ADAB1246D1488 /* KCLikeButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCLikeButton-prefix.pch"; sourceTree = "<group>"; };
+		5A43C5F966092CC498F617C5E067C1C2 /* Pods-KCLikeButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCLikeButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		70617EE3865817A7FCE9409BE40AD9F0 /* Pods-KCLikeButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KCLikeButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77D821D6D9410B55F9DC2DE951D88A7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		815A0B547E3BBB76EFD085BEBDC1DED3 /* Pods-KCLikeButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KCLikeButton_Example-dummy.m"; sourceTree = "<group>"; };
+		89043A23AC6A246B909E90AD5FC291F5 /* KCLikeButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KCLikeButton-umbrella.h"; sourceTree = "<group>"; };
+		8928DB6D538E09FC31E6159EB3A21A7F /* KCLikeButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KCLikeButton-dummy.m"; sourceTree = "<group>"; };
+		8ACCD9BC46E77D222787DBBCAE2CA261 /* Pods-KCLikeButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KCLikeButton_Tests.modulemap"; sourceTree = "<group>"; };
+		8C1D60D046C92C0C57E2C28BD7321F1F /* Pods_KCLikeButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCLikeButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2E86C76E0795A63778D9027FB4252B /* Pods-KCLikeButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KCLikeButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8CEBD4D08574CC9E34091712D7BF29BE /* Pods-KCLikeButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCLikeButton_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F778135786A39360B540B33F6634A05 /* KCLikeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCLikeButton.h; path = KCLikeButton/Classes/KCLikeButton.h; sourceTree = "<group>"; };
+		A94E916C8802AB2C52DF33C0C56C8147 /* Pods-KCLikeButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCLikeButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ADEE2D6D89E4936A05CB03BE6AC3B7F2 /* Pods-KCLikeButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCLikeButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AFF62E8436E0D97DC26C4EF6D0EC3DC7 /* Pods-KCLikeButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KCLikeButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3B18B520D2AAE2482031BAE673AE24E /* KCLikeButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KCLikeButton.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		B6B21AA417FCDDF8440B801ECCA11CCC /* Pods_KCLikeButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCLikeButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF97D62A2AD40FA057C9C19930117313 /* KCLikeButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KCLikeButton.release.xcconfig; sourceTree = "<group>"; };
+		C77D359EB108C5FB4C53894A5AFBC837 /* KCLikeButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KCLikeButton-Info.plist"; sourceTree = "<group>"; };
+		DAC2D4D8A7E1D82E6A274B8324F8DD9B /* Pods-KCLikeButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KCLikeButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC792921C3668FD901FFA0CE7670DC82 /* Pods-KCLikeButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KCLikeButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		F4BF3B28AAEED1EA2D39FEF1F9F1947F /* Pods-KCLikeButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KCLikeButton_Example.modulemap"; sourceTree = "<group>"; };
+		F71B910D1A7383B7C84839280680A574 /* Pods-KCLikeButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KCLikeButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F9A63815F02CFC4C004CDF29A5DBBC01 /* Pods-KCLikeButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KCLikeButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F84B39B5EA1AFAD3F2DD8100AE45482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DA8DC34C9DEC851FF7A77490B60A73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F57686C87A12F17B60534B1DB89C27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B0CF53B064ECDDD5B58F74675E5627 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9297FA2867324B25949A613BF34DE98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F068EA817EF0389D63B69D3B48FE9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54136CA267B36A61DCB6F646207E749F /* Pods-KCLikeButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F4BF3B28AAEED1EA2D39FEF1F9F1947F /* Pods-KCLikeButton_Example.modulemap */,
+				F9A63815F02CFC4C004CDF29A5DBBC01 /* Pods-KCLikeButton_Example-acknowledgements.markdown */,
+				AFF62E8436E0D97DC26C4EF6D0EC3DC7 /* Pods-KCLikeButton_Example-acknowledgements.plist */,
+				815A0B547E3BBB76EFD085BEBDC1DED3 /* Pods-KCLikeButton_Example-dummy.m */,
+				F71B910D1A7383B7C84839280680A574 /* Pods-KCLikeButton_Example-frameworks.sh */,
+				8CEBD4D08574CC9E34091712D7BF29BE /* Pods-KCLikeButton_Example-Info.plist */,
+				2B256E44BDA404AC336B89D6954E2479 /* Pods-KCLikeButton_Example-umbrella.h */,
+				010911661DE5D2B333C24B72B44C41F4 /* Pods-KCLikeButton_Example.debug.xcconfig */,
+				ADEE2D6D89E4936A05CB03BE6AC3B7F2 /* Pods-KCLikeButton_Example.release.xcconfig */,
+			);
+			name = "Pods-KCLikeButton_Example";
+			path = "Target Support Files/Pods-KCLikeButton_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FD70DDCCC31F632E46024EAC27D00AF /* KCLikeButton */ = {
+			isa = PBXGroup;
+			children = (
+				9F778135786A39360B540B33F6634A05 /* KCLikeButton.h */,
+				35739610C8A7EDD79F9ECEE2BBA4B392 /* KCLikeButton.m */,
+				900A739441E553AD61DFF9A2319D8A25 /* Pod */,
+				87483636BCBFBD48C8BA186CB7ED70CE /* Support Files */,
+			);
+			name = KCLikeButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		87483636BCBFBD48C8BA186CB7ED70CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF16447829E0243F0E14E5909A51B56 /* KCLikeButton.modulemap */,
+				8928DB6D538E09FC31E6159EB3A21A7F /* KCLikeButton-dummy.m */,
+				C77D359EB108C5FB4C53894A5AFBC837 /* KCLikeButton-Info.plist */,
+				47248C7910476666649ADAB1246D1488 /* KCLikeButton-prefix.pch */,
+				89043A23AC6A246B909E90AD5FC291F5 /* KCLikeButton-umbrella.h */,
+				03EB0838B88F2743D3C9F8872DBBD73D /* KCLikeButton.debug.xcconfig */,
+				BF97D62A2AD40FA057C9C19930117313 /* KCLikeButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KCLikeButton";
+			sourceTree = "<group>";
+		};
+		900A739441E553AD61DFF9A2319D8A25 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B3B18B520D2AAE2482031BAE673AE24E /* KCLikeButton.podspec */,
+				77D821D6D9410B55F9DC2DE951D88A7A /* LICENSE */,
+				21BC76A26CB248D408F2505556C108C6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A7D06FB2F48A38B7D650027022DA4799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02291F0E8C131D9D6520C87726FF78C8 /* KCLikeButton.framework */,
+				B6B21AA417FCDDF8440B801ECCA11CCC /* Pods_KCLikeButton_Example.framework */,
+				8C1D60D046C92C0C57E2C28BD7321F1F /* Pods_KCLikeButton_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE22A7300710B858E685A4ABBE4BE7D6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FD70DDCCC31F632E46024EAC27D00AF /* KCLikeButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CA9CC86193A42BBE32B10077953F0911 /* Pods-KCLikeButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8ACCD9BC46E77D222787DBBCAE2CA261 /* Pods-KCLikeButton_Tests.modulemap */,
+				8C2E86C76E0795A63778D9027FB4252B /* Pods-KCLikeButton_Tests-acknowledgements.markdown */,
+				5A43C5F966092CC498F617C5E067C1C2 /* Pods-KCLikeButton_Tests-acknowledgements.plist */,
+				EC792921C3668FD901FFA0CE7670DC82 /* Pods-KCLikeButton_Tests-dummy.m */,
+				2A4A644661A6297474866C8DEF093627 /* Pods-KCLikeButton_Tests-Info.plist */,
+				70617EE3865817A7FCE9409BE40AD9F0 /* Pods-KCLikeButton_Tests-umbrella.h */,
+				DAC2D4D8A7E1D82E6A274B8324F8DD9B /* Pods-KCLikeButton_Tests.debug.xcconfig */,
+				A94E916C8802AB2C52DF33C0C56C8147 /* Pods-KCLikeButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-KCLikeButton_Tests";
+			path = "Target Support Files/Pods-KCLikeButton_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AE22A7300710B858E685A4ABBE4BE7D6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A7D06FB2F48A38B7D650027022DA4799 /* Products */,
+				D707E0E71571B25176ED66B19376D651 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D707E0E71571B25176ED66B19376D651 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54136CA267B36A61DCB6F646207E749F /* Pods-KCLikeButton_Example */,
+				CA9CC86193A42BBE32B10077953F0911 /* Pods-KCLikeButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52128ACC25DA8555D7FCB134F5C5FD0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C892DF177D7E847092D5EEF55D7C83 /* KCLikeButton-umbrella.h in Headers */,
+				465F52F451930133BD11C4D21A4BC41E /* KCLikeButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE35D97034E87F8D29CD0FB21A67746 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11C9279AAC7C093CEA90E54C1F49EDC /* Pods-KCLikeButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17AE2C97FA4DBF877CA935D0C13998F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7E7D2212285D08706AC068C1766B9D /* Pods-KCLikeButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40C342E17FE4F0ACB7A12262E6C75FC5 /* KCLikeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E30055A9193CB94B7CCECD962BE08C1 /* Build configuration list for PBXNativeTarget "KCLikeButton" */;
+			buildPhases = (
+				52128ACC25DA8555D7FCB134F5C5FD0E /* Headers */,
+				1968BDBCFBA061CB2B717BDB56291E4A /* Sources */,
+				E9297FA2867324B25949A613BF34DE98 /* Frameworks */,
+				D8EE0108A21DFF903345A80B3C5E0701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KCLikeButton;
+			productName = KCLikeButton;
+			productReference = 02291F0E8C131D9D6520C87726FF78C8 /* KCLikeButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66F9712969C8313F0BD0FBA4657FB144 /* Pods-KCLikeButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EAD35ED68F2D996BC555936E2129AF4 /* Build configuration list for PBXNativeTarget "Pods-KCLikeButton_Example" */;
+			buildPhases = (
+				C17AE2C97FA4DBF877CA935D0C13998F /* Headers */,
+				97CFDE393E6ADBC58F88F21CE407C426 /* Sources */,
+				0F84B39B5EA1AFAD3F2DD8100AE45482 /* Frameworks */,
+				32E650EA3F7067636BEFFE2105966703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35DA4BB7752A4476617646D900C47563 /* PBXTargetDependency */,
+			);
+			name = "Pods-KCLikeButton_Example";
+			productName = "Pods-KCLikeButton_Example";
+			productReference = B6B21AA417FCDDF8440B801ECCA11CCC /* Pods_KCLikeButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5E905BAE3FF9240B08E89BD26E97A55 /* Pods-KCLikeButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C16BBAC6147C3851CD30EFF0F28DC58 /* Build configuration list for PBXNativeTarget "Pods-KCLikeButton_Tests" */;
+			buildPhases = (
+				7AE35D97034E87F8D29CD0FB21A67746 /* Headers */,
+				BEE4A55853BB98D929058BD9E5857526 /* Sources */,
+				27F57686C87A12F17B60534B1DB89C27 /* Frameworks */,
+				AEB543C2157685BF2B175E5FEF05BB9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D22F6FD877E7573C257C34361AB80C65 /* PBXTargetDependency */,
+			);
+			name = "Pods-KCLikeButton_Tests";
+			productName = "Pods-KCLikeButton_Tests";
+			productReference = 8C1D60D046C92C0C57E2C28BD7321F1F /* Pods_KCLikeButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A7D06FB2F48A38B7D650027022DA4799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40C342E17FE4F0ACB7A12262E6C75FC5 /* KCLikeButton */,
+				66F9712969C8313F0BD0FBA4657FB144 /* Pods-KCLikeButton_Example */,
+				D5E905BAE3FF9240B08E89BD26E97A55 /* Pods-KCLikeButton_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E650EA3F7067636BEFFE2105966703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB543C2157685BF2B175E5FEF05BB9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8EE0108A21DFF903345A80B3C5E0701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1968BDBCFBA061CB2B717BDB56291E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ABCCE1C89C995B51638A1A3C7810CF /* KCLikeButton-dummy.m in Sources */,
+				9CCAECE4D3B5E4CEE4282455DF316186 /* KCLikeButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CFDE393E6ADBC58F88F21CE407C426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2B782DAB9514734AAE7A15BBF2A942 /* Pods-KCLikeButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE4A55853BB98D929058BD9E5857526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F049433747C68A9D6B2C6DDEDC3BCDF4 /* Pods-KCLikeButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35DA4BB7752A4476617646D900C47563 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KCLikeButton;
+			target = 40C342E17FE4F0ACB7A12262E6C75FC5 /* KCLikeButton */;
+			targetProxy = C103DDFE45FF22C79581B411A6CDFE0B /* PBXContainerItemProxy */;
+		};
+		D22F6FD877E7573C257C34361AB80C65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KCLikeButton_Example";
+			target = 66F9712969C8313F0BD0FBA4657FB144 /* Pods-KCLikeButton_Example */;
+			targetProxy = 5485137746082CA3417B1B5CDE656C42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1588729BE0C6CF44FA15CBDEB58F14DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010911661DE5D2B333C24B72B44C41F4 /* Pods-KCLikeButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KCLikeButton_Example/Pods-KCLikeButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KCLikeButton_Example/Pods-KCLikeButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		236D8BF4C6958E2E58704BF3FB9EA8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A94E916C8802AB2C52DF33C0C56C8147 /* Pods-KCLikeButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KCLikeButton_Tests/Pods-KCLikeButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KCLikeButton_Tests/Pods-KCLikeButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		67302CD545C35F726C50DC9826B80363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC2D4D8A7E1D82E6A274B8324F8DD9B /* Pods-KCLikeButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KCLikeButton_Tests/Pods-KCLikeButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KCLikeButton_Tests/Pods-KCLikeButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A91AF52F9C563657B34C4AC38CD0235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03EB0838B88F2743D3C9F8872DBBD73D /* KCLikeButton.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KCLikeButton/KCLikeButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KCLikeButton/KCLikeButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KCLikeButton/KCLikeButton.modulemap";
+				PRODUCT_MODULE_NAME = KCLikeButton;
+				PRODUCT_NAME = KCLikeButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B7736F604F28DB7B926CD95DD7E1E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADEE2D6D89E4936A05CB03BE6AC3B7F2 /* Pods-KCLikeButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KCLikeButton_Example/Pods-KCLikeButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KCLikeButton_Example/Pods-KCLikeButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A93FFA058A30CC16B8BC83E677A3076C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF97D62A2AD40FA057C9C19930117313 /* KCLikeButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KCLikeButton/KCLikeButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KCLikeButton/KCLikeButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KCLikeButton/KCLikeButton.modulemap";
+				PRODUCT_MODULE_NAME = KCLikeButton;
+				PRODUCT_NAME = KCLikeButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C16BBAC6147C3851CD30EFF0F28DC58 /* Build configuration list for PBXNativeTarget "Pods-KCLikeButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67302CD545C35F726C50DC9826B80363 /* Debug */,
+				236D8BF4C6958E2E58704BF3FB9EA8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E30055A9193CB94B7CCECD962BE08C1 /* Build configuration list for PBXNativeTarget "KCLikeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A91AF52F9C563657B34C4AC38CD0235 /* Debug */,
+				A93FFA058A30CC16B8BC83E677A3076C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EAD35ED68F2D996BC555936E2129AF4 /* Build configuration list for PBXNativeTarget "Pods-KCLikeButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1588729BE0C6CF44FA15CBDEB58F14DE /* Debug */,
+				8B7736F604F28DB7B926CD95DD7E1E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
