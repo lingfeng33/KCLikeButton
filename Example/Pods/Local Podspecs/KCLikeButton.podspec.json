@@ -1,0 +1,22 @@
+{
+  "name": "KCLikeButton",
+  "version": "0.1.0",
+  "summary": "A short description of KCLikeButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lingfeng33/KCLikeButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lingfeng33": "237946843"
+  },
+  "source": {
+    "git": "https://github.com/lingfeng33/KCLikeButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KCLikeButton/Classes/**/*"
+}

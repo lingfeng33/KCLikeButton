@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - KCLikeButton (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - KCLikeButton (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  KCLikeButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  KCLikeButton: 526eb298dcbe951b304b687da547c4a33c689493
+
+PODFILE CHECKSUM: babf4d04cd745b01da114e890aeb8e3649d302e2
+
+COCOAPODS: 1.10.0
